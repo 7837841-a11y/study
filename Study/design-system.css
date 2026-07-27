@@ -1,0 +1,40 @@
+/* Product color tokens (Moon convention)
+   Light theme + Dark theme via [data-theme="dark"] */
+
+:root {
+  /* Main */
+  --color-piccolo: #4E46B4;
+  --color-hit: #40A69F;
+  --color-beerus: #E2E2E2;
+  --color-goku: #F5F5F5;
+  --color-gohan: #FFFFFF;
+  --color-bulma: #000000;
+  --color-trunks: #595D62;
+  --color-goten: #FFFFFF;
+  --color-popo: #000000;
+  --color-jiren: rgba(78, 70, 180, 0.12);   /* #4E46B4 @ 12% */
+  --color-heles: rgba(0, 0, 0, 0.04);       /* #000000 @ 4% */
+  --color-zeno: rgba(0, 0, 0, 0.56);        /* #000000 @ 56% */
+
+  /* Supportive */
+  --color-krillin: #FFB319;
+}
+
+[data-theme="dark"] {
+  /* Main */
+  --color-piccolo: #4E46B4;
+  --color-hit: #40A69F;
+  --color-beerus: #444444;
+  --color-goku: #0B0B0B;
+  --color-gohan: #1F1F1F;
+  --color-bulma: #FFFFFF;
+  --color-trunks: #595D62;
+  --color-goten: #FFFFFF;
+  --color-popo: #000000;
+  --color-jiren: rgba(78, 70, 180, 0.32);   /* #4E46B4 @ 32% */
+  --color-heles: rgba(255, 255, 255, 0.08); /* #FFFFFF @ 8% */
+  --color-zeno: rgba(0, 0, 0, 0.56);        /* #000000 @ 56% */
+
+  /* Supportive */
+  --color-krillin: #FFB319;
+}
